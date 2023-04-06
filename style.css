@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    width: 100%;
+    font-family: 'Share Tech Mono', monospace;
+
+}
+
+.side{
+    width: 300px;
+    height: 1080px;
+    background-color: #AD7BE9;
+    padding: 16px;
+    
+}
+
+.side ul{
+    margin-top: 155px;
+    
+}
+
+.side ul li.active{
+    margin-left: 0;
+    margin-bottom: 32px;
+    list-style: none;
+    
+    
+}
+
+.side ul li{
+    margin-left: 0px;
+    margin-bottom: 32px;
+    list-style: none;
+    
+}
+
+.side ul li.active a{
+    background-color: #FFFFFF;
+    width: 281px;
+    height: 74px;
+    border: 1px solid #FFFFFF;
+    border-radius: 38px;
+    display: flex;
+    transition: 0.5s;
+    color: #AD7BE9;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    transition: 0.5s;
+    
+}
+
+.side ul li a{
+    color: #FFFFFF;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    
+    
+    
+}
+
+
+.side ul li.active a .icon{
+    margin-left: 32px;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.side ul li a .icon{
+    margin-left: 32px;
+    width: 40px;
+    height: 40px;
+}
+
+
+.side ul li a .text{
+    margin-left: 32px;
+    font-size: 26px;
+}
+
+.page{
+    display: flex;
+    justify-content: space-between;
+    padding: 64px;
+}
+
+.title{
+    margin-top: 383px;
+    
+}
+
+.title h1{
+    font-size: 128px;
+    color: #3E54AC;
+}
+
+.title p{
+    font-size: 36px;
+    margin-right: 64px;
+}
+
+
+.settings-button .icon{
+    width: 32px;
+    margin-bottom: 32px;
+    margin-left: 568px;
+}
+
+.settings-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.form{
+    width: 598px;
+    height: 886px;
+    background-color: #EFF6F8;
+    border: 1px solid #EFF6F8;
+    border-radius: 36px;
+    
+    
+}
+
+.form h1{
+    font-size: 48px;
+    text-align: center;
+    color: #AD7BE9;
+    padding-top: 64px;
+    padding-bottom: 32px;
+}
+
+.input-submit{
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    margin-left: 64px;
+}
+.email label{
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #AD7BE9;
+}
+#email{
+    width: 436px;
+    height: 60px;
+    border: 2px solid #AD7BE9;
+    border-radius: 16px;
+    color: #AD7BE9;
+    font-size: 24px;
+    font-family: 'Share Tech Mono', monospace;
+    padding-left: 32px;
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+    margin-left: 64px;
+}
+.username label{
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #AD7BE9;
+}
+#name{
+    width: 436px;
+    height: 60px;
+    border: 2px solid #AD7BE9;
+    border-radius: 16px;
+    color: #AD7BE9;
+    font-size: 24px;
+    font-family: 'Share Tech Mono', monospace;
+    padding-left: 32px;
+    margin-bottom: 32px;
+}
+
+.pass{
+    display: flex;
+    flex-direction: column;
+    margin-left: 64px;
+    margin-top: 32px;
+}
+.pass label{
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #AD7BE9;
+}
+.input-pass{
+    width: 468px;
+    background-color: #FFFFFF;
+    height: 60px;
+    border: 2px solid #AD7BE9;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    
+}
+
+.password{
+    width: 380px;
+    height: 58px;
+    background: none;
+    padding-left: 32px;
+    color: #AD7BE9;
+    font-size: 24px;
+    font-family: 'Share Tech Mono', monospace;
+    border: none;
+    outline: none;
+}
+
+.eye-toggle{
+    width: 32px;
+}
+
+.forgot-pass{
+    margin-left: 64px;
+    font-size: 18px;
+    color: #3E54AC;
+    text-decoration: none;
+    
+}
+
+.submit{
+    width: 208px;
+    height: 52px;
+    margin-top: 32px;
+    border-radius: 32px;
+    margin-left: 195px;
+    background-color: #AD7BE9;
+    font-size: 32px;
+    font-family: 'Share Tech Mono', monospace;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    border: 1px solid #AD7BE9;
+}
+
+.go-to-register{
+    margin-left: 147px;
+    color: #AD7BE9;
+    
+}
+
+.regis{
+    text-decoration: none;
+    color: #3E54AC;
+}

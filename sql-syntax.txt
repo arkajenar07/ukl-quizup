@@ -1,0 +1,7 @@
+CREATE DATABASE quiz
+
+CREATE TABLE murid(
+    id_murid INT NOT NULL,
+    murid_email VARCHAR(100) NOT NULL,
+    murid_password VARCHAR(100) NOT NULL,
+    murid_username VARCHAR(100) NOT NULL)
